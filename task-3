@@ -1,0 +1,43 @@
+// Using an array
+var numbers = [ 10, 20, 30, 40, 50] 
+for (var i=0; i < numbers.length; i++) {
+   console.log(numbers[i])
+}
+‍//Making a loop through DOM elements
+var elements = document.querySelectorAll("a");
+for (var i=0; i<elements.length; i++) {
+   elements[i].style.color = "red";
+}
+//The ‘For In’ Loop
+  //1.Looping through an Object Property
+   var person = {
+   fname: "Nick",
+   lname: "Jonas",
+   age: 26
+}; 
+for (let x in person) {
+   console.log(x + ": "+ person[x])
+}
+‍
+
+//foreach
+const data = await response.json();
+
+data.forEach(obj => {
+  Object.entries(obj).forEach(([key, value]) => {
+    console.log(`${key} ${value}`);
+  });
+  console.log('-------------------');
+});
+// for of
+var p = {
+    "p1": "value1",
+    "p2": "value2",
+    "p3": "value3"
+};
+
+for (var key in p) {
+    if (p.hasOwnProperty(key)) {
+        console.log(key + " -> " + p[key]);
+    }
+}
