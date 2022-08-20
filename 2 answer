@@ -1,0 +1,36 @@
+{
+  "basics": {
+    "name": "Navyasri Koppisetti",
+    "email": "navyasrikoppisetti1@gmail.com",
+    "phone": "8499873158.",
+    "degree": "b.tech",
+    
+    "description": "Seeking a challenging position in a reputable organization to expand and utilize my learning, skills and knowledge",
+    
+  ],
+ 
+  "education": [
+    {
+      "institution": "kakinada Institute of Engineering and Technology for women",
+      "branch": "EEE",
+      "gpa": "7", [
+        ""
+      ]
+    }
+  ],
+ "skills": [
+    {
+      "": "java, python,c, data structures",
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language1": "english",
+      "fluency": "advanced"
+      "language2": "hindi"
+      "fluency": "advanced"
+       "language3": "telugu"
+      "fluency": "native speaker"
+    }
+  ]
